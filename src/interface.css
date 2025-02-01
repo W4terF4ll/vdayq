@@ -1,0 +1,51 @@
+body {
+    background-image: url(../res/bg.gif);
+}
+input {
+    background-color:#ebc7e9;
+    border-color:#734471;
+    color: #734471;
+    font-family: "Century Gothic";
+    border-radius: 5px;
+    font-size: 32px;
+    height: 48px;
+    width: 160px;
+}
+input:hover {
+    background-color: #c995c7;
+}
+#heartGif {
+    height: 128px;
+    width: 200px;
+}
+#catGif {
+    border-radius: 5px;
+    height: 128px;
+    width: 200px;
+}
+#divWrapper {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+    color: #734471;
+	font-family: "Century Gothic";
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+#divHeader {
+    display: flex;
+    align-self: center;
+    align-items: center; 
+}
+#divLower {
+    width: 100%
+}
+#divLowest {
+    clear:both;
+    margin-top: 80px;
+}
